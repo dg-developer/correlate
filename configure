@@ -1,0 +1,4 @@
+cp ~/.bashrc ~/.bashrc-auvt-backup
+echo "export CORRELATE_HOME=`pwd`" >> ~/.bashrc
+echo "alias build='make clean; make distclean; qmake; make'" >> ~/.bashrc
+
